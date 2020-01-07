@@ -1,1 +1,2 @@
-console.log('node is awesome')
+const fs = require('fs')
+fs.writeFileSync('text.txt','\nnode is awesome');
